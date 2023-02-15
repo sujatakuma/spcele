@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .titale {
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        background-color: orange;
+
+    }
+
+    .titale_img {}
+
+    .container {
+        float: left;
+    }
+
+    .img img {
+        border-radius: 20px;
+        height: 450px;
+        width: 450px;
+        margin: 25px;
+    }
+
+    .float h3 {
+        margin-top: 40px;
+        padding: 10px;
+        color: orange;
+        font-size: 3rem;
+    }
+
+    .float {
+        float: left;
+        margin-top: 20px;
+        padding: 15px;
+    }
+
+    .btn {
+        display: inline-block;
+        border-radius: 4px;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        margin-bottom: 20px;
+
+        margin-top: 30px;
+        /*cursor: pointer;*/
+
+    }
+
+    .btn:hover {
+        border: 2px outset black;
+
+
+    }
+
+    .btn a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .btn1 {
+        background-color: rgb(100, 19, 19);
+    }
+
+    .btn2 {
+        background-color: rgb(243, 177, 120);
+    }
+
+    .btn3 {
+        background-color: orange;
+
+    }
+
+    .btn4 {
+        background-color: rgb(223, 43, 103);
+    }
+
+    .btn5 {
+        background-color: rgb(101, 233, 160);
+    }
+
+    .btn6 {
+        background-color: rgb(94, 94, 243);
+    }
+
+    .btn7 {
+        background-color: #F38820;
+    }
+
+    button {
+        display: inline-block;
+        border-radius: 4px;
+        /*padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 4px 2px;
+            margin-bottom: 20px;
+
+            margin-top: 30px;*/
+    }
+
+    .box_img img {
+        margin: 20px;
+        padding: 10px;
+        display: block;
+        justify-content: center;
+        border-radius: 30px;
+    }
+
+    .float_img img {
+        margin-top: 10px;
+        float: left;
+        padding: 10px;
+        border-radius: 20px;
+
+        margin-left: 15px;
+        margin-right: 2px;
+
+    }
+
+    .float_img_2 img {
+        margin-top: 10px;
+        float: right;
+        padding: 10px;
+        border-radius: 20px;
+        margin-left: 0px;
+        margin-right: 10px;
+
+    }
+
+    .container {
+        margin-top: 20px;
+        padding: 10px;
+        display: flex;
+    }
+
+    .box {
+        border-radius: 7px;
+        margin: 20px;
+        padding: 10px;
+        display: inline-block;
+        border: 2px solid rgb(243, 242, 242);
+    }
+
+    .box img {
+        width: 250px;
+        height: 250px;
+        border-radius: 7px;
+    }
+
+    .container {
+        background-color: #FDE7D2;
+        margin-left: 20px;
+    }
+
+    footer {
+        margin: 0;
+        padding: 0;
+        background-color: #F38820;
+       
+    }
+
+    .footer {
+
+        display: flex;
+        margin-top: 20px;
+        padding: 5px;
+        margin-left: 0px;
+
+    }
+
+    .footer_box li {
+        list-style: none;
+        font-size: 20px;
+        margin: 8px;
+        padding: 5px;
+        color: #fff;
+        display: flex;
+
+    }
+</style>
+
+<body>
+    <section>
+        <div class="titale">
+            <h2>Delivering Eggless Cake's Same Day Across Delhi</h2>
+        </div>
+        <div class="titale_img">
+            <center><img src="https://www.doughandcream.com/wp-content/uploads/2022/12/logo.svg" alt="" srcset="">
+            </center>
+        </div>
+        <hr style="width: 100%;text-align:left;margin-left:0">
+    </section>
+    <div class="container">
+        <div class="img">
+            <img src="https://c4.wallpaperflare.com/wallpaper/235/28/922/food-fruit-raspberries-wallpaper-preview.jpg"
+                alt="" srcset="">
+        </div>
+
+
+    </div>
+    <div class="float">
+
+        <div class="float_box">
+            <h1>Black Forest Cake</h1>
+            <h3>₹540</h3>
+            <h4>Select Weight</h4>
+        </div>
+        <span class="btn btn1" onclick="rschange()"><a href="#">1kg</a>
+        </span>
+        <span class="btn btn3" onclick="fun()"><a href="#">2kg</a></span>
+        <span class="btn btn2" onclick="myfun()"><a href="#">3kg</a></span>
+        <span class="btn btn3" onclick="on()"><a href="#">4kg</a></span>
+        <span class="btn btn4" onclick="hello()"><a href="#">5kg</a></span>
+        <span class="btn btn5" onclick="change()"><a href="#">6kg</a></span><br>
+        Message on Cake:<input type="text" row="12" cols="40" name="name"> <br>
+        <div class="button">
+            <span class="btn btn7"><a href="baynnow.html">Buy Now</a></span>
+        </div>
+        <h3>Product Description</h3>
+        <p> Soft chocolate cake layered with rich whipped cream and sweet cherries topped with dark chocolate shavings
+        </p>
+
+    </div>
+    <div class="box_img">
+        <img src="https://www.doughandcream.com/wp-content/uploads/2022/12/dough-and-cream-online.png" alt="" srcset="">
+    </div>
+    
+    <div class="float_img">
+        <img src="https://www.doughandcream.com/wp-content/uploads/2022/12/buy-eggless-cake.png" alt="" srcset="">
+    </div>
+    <div class="float_img_2">
+        <img src="https://www.doughandcream.com/wp-content/uploads/2022/12/buy-custom-cake.png">
+
+    </div>
+
+    <div class="container">
+
+        <div class="box">
+            <img src="https://www.doughandcream.com/wp-content/uploads/2022/12/Red-Velvet-Cake.jpg" alt="" srcset="">
+            <h2>Red Velvet Cake
+                ₹660
+                <br><span>₹660</span>
+            </h2>
+        </div>
+        <div class="box">
+            <img src="https://www.doughandcream.com/wp-content/uploads/2022/12/Fresh-Fruit-Cake.jpg" alt="" srcset="">
+            <h2>Fresh Fruit cake
+                ₹726
+                <br><span>₹726</span>
+            </h2>
+        </div>
+        <div class="box">
+            <img src="https://www.doughandcream.com/wp-content/uploads/2022/12/Vanilla-Cake.jpg" alt="" srcset="">
+            <h2>Vanilla Cake
+
+                <br><span>₹462</span>
+            </h2>
+        </div>
+        <div class="box">
+            <img src="https://www.doughandcream.com/wp-content/uploads/2022/12/Chocolate-Truffle-Cake.jpg" alt=""
+                srcset="">
+            <h2>Choco Truffle Cake
+                <br><span>₹1,375</span>
+            </h2>
+        </div>
+
+    </div>
+    hellothisisbestside
+    <footer>
+        <div class="footer">
+            <div class="footer_box">
+                <ul>
+                    <li><img src="" alt=""
+                            srcset="https://www.doughandcream.com/wp-content/uploads/2022/12/logo-white.svg"></li>
+                    <li>For Any Assistance</li>
+                    <li>7998-7998-21</li>
+                    <li><img
+                            src="https://www.doughandcream.com/wp-content/themes/storefront-child-theme-master/img/mail.svg">
+                        info@doughandcream.com</li>
+                </ul>
+
+            </div>
+            <div class="footer_box">
+                <ul>
+                    <li>
+                        Information
+                    </li>
+                    <li>Home</li>
+                    <li>Contact Us</li>
+                    <li>About Us</li>
+                    <li> Whatsapp Us</li>
+                </ul>
+            </div>
+            <div class="footer_box">
+                <ul>
+                    <li>Quick Links</li>
+                    <li>FAQ</li>
+                    <li>Terms of service</li>
+                    <li> Privacy Policy</li>
+                    <li>Shipping Policy</li>
+
+
+                </ul>
+
+            </div>
+            <div class="footer_box">
+                <ul>
+                    <li>
+                        <img src="https://www.doughandcream.com/wp-content/themes/storefront-child-theme-master/img/card_img.svg"
+                            alt="" srcset="">
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </footer>
+
+
+
+
+
+
+    <script>
+        function rschange() {
+            document.getElementsByTagName("h3")[0].innerHTML = "Rs.400"
+        }
+        function fun() {
+            document.getElementsByTagName("h3")[0].innerHTML = "Rs.550"
+
+        }
+        function myfun() {
+            document.getElementsByTagName("h3")[0].innerHTML = "Rs.630"
+        }
+        function on() {
+            document.getElementsByTagName("h3")[0].innerHTML = "Rs.740"
+        }
+        function hello() {
+            document.getElementsByTagName("h3")[0].innerHTML = "Rs.880"
+        }
+        function change() {
+            document.getElementsByTagName("h3")[0].innerHTML = "Rs.900"
+        }
+
+    </script>
+
+</body>
+
+</html>
